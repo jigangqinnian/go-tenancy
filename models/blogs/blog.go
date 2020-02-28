@@ -1,9 +1,9 @@
 package blogs
 
 import (
-	"GoTenancy/models/users"
 	"github.com/jinzhu/gorm"
 	"github.com/qor/publish2"
+	"go-tenancy/models/users"
 )
 
 type Article struct {

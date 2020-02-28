@@ -9,7 +9,6 @@ import (
 	"path/filepath"
 	"strings"
 
-	"GoTenancy/utils/registerviews"
 	"github.com/fatih/color"
 	"github.com/qor/auth"
 	"github.com/qor/auth/auth_identity"
@@ -20,6 +19,7 @@ import (
 	"github.com/qor/qor"
 	"github.com/qor/qor/utils"
 	"github.com/qor/render"
+	"go-tenancy/utils/registerviews"
 )
 
 // ErrPasswordConfirmationNotMatch password confirmation not match error
@@ -95,7 +95,7 @@ func New(config *auth.Config) *auth.Auth {
 	}
 
 	// 模版加载是前面覆盖后面
-	if err := config.Render.AssetFileSystem.RegisterPath(registerviews.DetectViewsDir("github.com/snowlyg/GoTenancy/config/auth/themes/views", "")); err != nil {
+	if err := config.Render.AssetFileSystem.RegisterPath(registerviews.DetectViewsDir("github.com/snowlyg/go-tenancy/config/auth/themes/views", "")); err != nil {
 		color.Red(fmt.Sprintf(" Auth.Render.AssetFileSystem.RegisterPath %v\n", err))
 	}
 

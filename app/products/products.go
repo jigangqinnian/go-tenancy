@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"html/template"
 
-	"GoTenancy/config/application"
-	"GoTenancy/models/products"
-	"GoTenancy/utils/funcmapmaker"
 	"github.com/jinzhu/gorm"
 	"github.com/qor/admin"
 	"github.com/qor/media"
 	"github.com/qor/media/media_library"
 	"github.com/qor/qor"
 	"github.com/qor/render"
+	"go-tenancy/config/application"
+	"go-tenancy/models/products"
+	"go-tenancy/utils/funcmapmaker"
 )
 
 var Genders = []string{"Men", "Women", "Kids"}

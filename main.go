@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"GoTenancy/config"
-	"GoTenancy/config/bindatafs"
-	"GoTenancy/irisapp"
+	"go-tenancy/config"
+	"go-tenancy/config/bindatafs"
+	"go-tenancy/irisapp"
 	"github.com/fatih/color"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/kataras/iris/v12"

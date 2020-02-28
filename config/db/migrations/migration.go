@@ -1,8 +1,6 @@
 package migrations
 
 import (
-	"GoTenancy/config/db"
-	"GoTenancy/models/blogs"
 	"GoTenancy/models/orders"
 	"GoTenancy/models/products"
 	"GoTenancy/models/seo"
@@ -15,6 +13,8 @@ import (
 	"github.com/qor/help"
 	"github.com/qor/media/asset_manager"
 	"github.com/qor/transition"
+	"go-tenancy/config/db"
+	"go-tenancy/models/blogs"
 )
 
 func init() {

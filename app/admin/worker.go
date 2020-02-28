@@ -5,9 +5,6 @@ import (
 	"path/filepath"
 	"time"
 
-	"GoTenancy/config/db"
-	"GoTenancy/config/i18n"
-	"GoTenancy/models/products"
 	"github.com/qor/admin"
 	"github.com/qor/exchange"
 	"github.com/qor/exchange/backends/csv"
@@ -15,6 +12,9 @@ import (
 	"github.com/qor/media/oss"
 	"github.com/qor/qor"
 	"github.com/qor/worker"
+	"go-tenancy/config/db"
+	"go-tenancy/config/i18n"
+	"go-tenancy/models/products"
 )
 
 // SetupWorker setup worker

@@ -7,16 +7,16 @@ import (
 	"strconv"
 	"strings"
 
-	"GoTenancy/config/application"
-	"GoTenancy/models/orders"
-	"GoTenancy/models/products"
-	"GoTenancy/utils/funcmapmaker"
 	"github.com/jinzhu/gorm"
 	"github.com/qor/activity"
 	"github.com/qor/admin"
 	"github.com/qor/qor"
 	"github.com/qor/render"
 	"github.com/qor/transition"
+	"go-tenancy/config/application"
+	"go-tenancy/models/orders"
+	"go-tenancy/models/products"
+	"go-tenancy/utils/funcmapmaker"
 )
 
 // New new order app

@@ -5,9 +5,6 @@ import (
 	"net/http"
 	"strconv"
 
-	"GoTenancy/config"
-	"GoTenancy/models/orders"
-	"GoTenancy/utils"
 	"github.com/gorilla/schema"
 	"github.com/kataras/iris/v12"
 	amazonpay "github.com/qor/amazon-pay-sdk-go"
@@ -15,6 +12,9 @@ import (
 	qorrender "github.com/qor/render"
 	"github.com/qor/responder"
 	"github.com/qor/session/manager"
+	"go-tenancy/config"
+	"go-tenancy/models/orders"
+	"go-tenancy/utils"
 )
 
 // Controller order controller

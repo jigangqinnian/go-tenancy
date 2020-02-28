@@ -1,12 +1,12 @@
 package admin
 
 import (
-	"GoTenancy/models/products"
 	"github.com/qor/exchange"
 	"github.com/qor/qor"
 	"github.com/qor/qor/resource"
 	"github.com/qor/qor/utils"
 	"github.com/qor/validations"
+	"go-tenancy/models/products"
 )
 
 // ProductExchange product exchange

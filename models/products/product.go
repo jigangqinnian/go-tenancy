@@ -7,6 +7,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/fatih/color"
+	"github.com/jinzhu/gorm"
 	"github.com/qor/l10n"
 	"github.com/qor/media"
 	"github.com/qor/media/media_library"
@@ -16,11 +18,9 @@ import (
 	"github.com/qor/slug"
 	"github.com/qor/sorting"
 	"github.com/qor/validations"
-	"github.com/fatih/color"
-	"github.com/jinzhu/gorm"
 
-	"GoTenancy/config/db"
-	"GoTenancy/models/seo"
+	"go-tenancy/config/db"
+	"go-tenancy/models/seo"
 )
 
 type Product struct {

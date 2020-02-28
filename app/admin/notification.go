@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"time"
 
-	"GoTenancy/config/db"
-	"GoTenancy/models/orders"
 	"github.com/qor/admin"
 	"github.com/qor/notification"
 	"github.com/qor/notification/channels/database"
+	"go-tenancy/config/db"
+	"go-tenancy/models/orders"
 )
 
 // SetupNotification add notification

@@ -1,10 +1,10 @@
 package orders
 
 import (
-	"GoTenancy/config/db"
-	"GoTenancy/models/products"
 	"github.com/jinzhu/gorm"
 	"github.com/qor/transition"
+	"go-tenancy/config/db"
+	"go-tenancy/models/products"
 )
 
 type OrderItem struct {

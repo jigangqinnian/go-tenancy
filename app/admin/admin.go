@@ -3,13 +3,10 @@ package admin
 import (
 	"fmt"
 
-	"GoTenancy/config/application"
-	"GoTenancy/config/auth"
+	"go-tenancy/config/application"
+	"go-tenancy/config/auth"
 
-	//"GoTenancy/config/auth"
-	"GoTenancy/config/i18n"
-	"GoTenancy/models/settings"
-	"GoTenancy/utils/registerviews"
+	//"go-tenancy/config/auth"
 	"github.com/fatih/color"
 	"github.com/kataras/iris/v12"
 	"github.com/qor/action_bar"
@@ -17,6 +14,9 @@ import (
 	"github.com/qor/help"
 	"github.com/qor/media/asset_manager"
 	"github.com/qor/media/media_library"
+	"go-tenancy/config/i18n"
+	"go-tenancy/models/settings"
+	"go-tenancy/utils/registerviews"
 )
 
 // ActionBar admin action bar

@@ -1,10 +1,10 @@
 package admin
 
 import (
-	"GoTenancy/models/products"
-	"GoTenancy/models/seo"
 	"github.com/qor/admin"
 	qor_seo "github.com/qor/seo"
+	"go-tenancy/models/products"
+	"go-tenancy/models/seo"
 )
 
 // SetupSEO add seo

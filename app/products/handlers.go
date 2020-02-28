@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	"GoTenancy/models/products"
-	"GoTenancy/utils"
 	"github.com/fatih/color"
 	"github.com/kataras/iris/v12"
 	"github.com/qor/render"
+	"go-tenancy/models/products"
+	"go-tenancy/utils"
 )
 
 // Controller products controller

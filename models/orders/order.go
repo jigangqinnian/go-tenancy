@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"time"
 
-	"GoTenancy/models/users"
 	"github.com/jinzhu/gorm"
 	"github.com/qor/transition"
+	"go-tenancy/models/users"
 )
 
 type PaymentMethod = string
